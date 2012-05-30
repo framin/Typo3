@@ -1,0 +1,82 @@
+/* Auto-Generated via t3lib_spritemanager_SimpleHandler */
+
+.t3-icon-em-extension-required {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/em/res/icons/extension-required.png') !important;
+}
+	
+.t3-icon-workspaces-sendtonextstage {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/workspaces/Resources/Public/Images/version-workspace-sendtonextstage.png') !important;
+}
+	
+.t3-icon-workspaces-sendtoprevstage {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/workspaces/Resources/Public/Images/version-workspace-sendtoprevstage.png') !important;
+}
+	
+.t3-icon-workspaces-generatepreviewlink {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/workspaces/Resources/Public/Images/generate-ws-preview-link.png') !important;
+}
+	
+.t3-icon-pages-contains-news {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/tt_news/res/gfx/ext_icon_ttnews_folder.gif') !important;
+}
+	
+.t3-icon-sys_filemounts-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/i/_icon_ftp_2.gif') !important;
+}
+	
+.t3-icon-backend_layout-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/i/backend_layout.gif') !important;
+}
+	
+.t3-icon-sys_note-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/sys_note/ext_icon.gif') !important;
+}
+	
+.t3-icon-tx_rtehtmlarea_acronym-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/rtehtmlarea/extensions/Acronym/skin/images/acronym.gif') !important;
+}
+	
+.t3-icon-tt_news-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/tt_news/res/gfx/ext_icon.gif') !important;
+}
+	
+.t3-icon-tt_news-1 {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/tt_news/res/gfx/tt_news_article.gif') !important;
+}
+	
+.t3-icon-tt_news-2 {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/tt_news/res/gfx/tt_news_exturl.gif') !important;
+}
+	
+.t3-icon-tt_news_cat-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/tt_news/res/gfx/tt_news_cat.gif') !important;
+}
+	
+.t3-icon-index_config-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/i/default.gif') !important;
+}
+	
+.t3-icon-tx_wtspamshield_log-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/wt_spamshield/icon_tx_wtspamshield_log.gif') !important;
+}
+	
+.t3-icon-tx_wtspamshield_blacklist-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/wt_spamshield/icon_tx_wtspamshield_log.gif') !important;
+}
+	

@@ -1,0 +1,102 @@
+/* default styles for extension "tx_cssstyledcontent" */
+	/* Headers */
+	.csc-header-alignment-center { text-align: center; }
+	.csc-header-alignment-right { text-align: right; }
+	.csc-header-alignment-left { text-align: left; }
+
+	/* Clear floats after csc-textpic and after csc-textpic-imagerow */
+	DIV.csc-textpic, DIV.csc-textpic DIV.csc-textpic-imagerow, UL.csc-uploads LI { overflow: hidden; }
+
+	/* Set padding for tables */
+	DIV.csc-textpic .csc-textpic-imagewrap table { border-collapse: collapse; border-spacing: 0; }
+	DIV.csc-textpic .csc-textpic-imagewrap table tr td { padding: 0; vertical-align: top; }
+
+	/* Settings for figure and figcaption (HTML5) */
+	DIV.csc-textpic .csc-textpic-imagewrap FIGURE, DIV.csc-textpic FIGURE.csc-textpic-imagewrap { margin: 0; display: table; }
+
+	/* Captions */
+	FIGCAPTION.csc-textpic-caption { display: table-caption; }
+	.csc-textpic-caption { text-align: left; caption-side: bottom; }
+	DIV.csc-textpic-caption-c .csc-textpic-caption, .csc-textpic-imagewrap .csc-textpic-caption-c { text-align: center; }
+	DIV.csc-textpic-caption-r .csc-textpic-caption, .csc-textpic-imagewrap .csc-textpic-caption-r { text-align: right; }
+	DIV.csc-textpic-caption-l .csc-textpic-caption, .csc-textpic-imagewrap .csc-textpic-caption-l { text-align: left; }
+
+	/* Float the columns */
+	DIV.csc-textpic DIV.csc-textpic-imagecolumn { float: left; }
+
+	/* Border just around the image */
+	DIV.csc-textpic-border DIV.csc-textpic-imagewrap IMG {
+		border: 1px solid black;
+		padding: 0px 0px;
+	}
+
+	DIV.csc-textpic .csc-textpic-imagewrap IMG { border: none; display: block; }
+
+	/* Space below each image (also in-between rows) */
+	DIV.csc-textpic .csc-textpic-imagewrap .csc-textpic-image { margin-bottom: 10px; }
+	DIV.csc-textpic .csc-textpic-imagewrap .csc-textpic-imagerow-last .csc-textpic-image { margin-bottom: 0; }
+
+	/* colSpace around image columns, except for last column */
+	DIV.csc-textpic-imagecolumn, TD.csc-textpic-imagecolumn .csc-textpic-image { margin-right: 10px; }
+	DIV.csc-textpic-imagecolumn.csc-textpic-lastcol, TD.csc-textpic-imagecolumn.csc-textpic-lastcol .csc-textpic-image { margin-right: 0; }
+
+	/* Add margin from image-block to text (in case of "Text w/ images") */
+	DIV.csc-textpic-intext-left .csc-textpic-imagewrap,
+	DIV.csc-textpic-intext-left-nowrap .csc-textpic-imagewrap {
+		margin-right: 10px;
+	}
+	DIV.csc-textpic-intext-right .csc-textpic-imagewrap,
+	DIV.csc-textpic-intext-right-nowrap .csc-textpic-imagewrap {
+		margin-left: 10px;
+	}
+
+	/* Positioning of images: */
+
+	/* Center (above or below) */
+	DIV.csc-textpic-center .csc-textpic-imagewrap, DIV.csc-textpic-center FIGURE.csc-textpic-imagewrap { overflow: hidden; }
+	DIV.csc-textpic-center .csc-textpic-center-outer { position: relative; float: right; right: 50%; }
+	DIV.csc-textpic-center .csc-textpic-center-inner { position: relative; float: right; right: -50%; }
+
+	/* Right (above or below) */
+	DIV.csc-textpic-right .csc-textpic-imagewrap { float: right; }
+	DIV.csc-textpic-right DIV.csc-textpic-text { clear: right; }
+
+	/* Left (above or below) */
+	DIV.csc-textpic-left .csc-textpic-imagewrap { float: left; }
+	DIV.csc-textpic-left DIV.csc-textpic-text { clear: left; }
+
+	/* Left (in text) */
+	DIV.csc-textpic-intext-left .csc-textpic-imagewrap { float: left; }
+
+	/* Right (in text) */
+	DIV.csc-textpic-intext-right .csc-textpic-imagewrap { float: right; }
+
+	/* Right (in text, no wrap around) */
+	DIV.csc-textpic-intext-right-nowrap .csc-textpic-imagewrap { float: right; }
+
+	/* Left (in text, no wrap around) */
+	DIV.csc-textpic-intext-left-nowrap .csc-textpic-imagewrap { float: left; }
+
+	DIV.csc-textpic DIV.csc-textpic-imagerow-last, DIV.csc-textpic DIV.csc-textpic-imagerow-none DIV.csc-textpic-last { margin-bottom: 0; }
+
+	/* Browser fixes: */
+
+	/* Fix for unordered and ordered list with image "In text, left" */
+	.csc-textpic-intext-left ol, .csc-textpic-intext-left ul { padding-left: 40px; overflow: auto; }
+
+	/* File Links */
+	UL.csc-uploads { padding: 0; }
+	UL.csc-uploads LI { list-style: none outside none; margin: 1em 0; }
+	UL.csc-uploads IMG { float: left; padding-right: 1em; vertical-align: top; }
+	UL.csc-uploads SPAN { display: block; }
+	UL.csc-uploads SPAN.csc-uploads-fileName { text-decoration: underline; }
+
+	/* Table background colors: */
+
+	TABLE.contenttable-color-1 { background-color: #EDEBF1; }
+	TABLE.contenttable-color-2 { background-color: #F5FFAA; }
+	TABLE.contenttable-color-240 { background-color: black; }
+	TABLE.contenttable-color-241 { background-color: white; }
+	TABLE.contenttable-color-242 { background-color: #333333; }
+	TABLE.contenttable-color-243 { background-color: gray; }
+	TABLE.contenttable-color-244 { background-color: silver; }
